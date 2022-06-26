@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FAFAD2;
+    font-family:'Roboto' , sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: normal;
+}  
+
+.top p{
+    font-size: 14px;
+    color: rgb(81, 78, 78);
+}
+
+.top {
+    background: #ADD8E6;
+    color:#626e7b;
+    border: 2px solid rgb(150, 181, 154);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 7px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.top2 {
+    background:#5de6e1aa ;
+    color: #596370;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+      padding: 15px;
+      padding-left: 35px;
+      box-shadow: 5px 5px 7px;
+      padding-right: 33px;
+}
+
+.card1 {
+background:#90cdf2;
+color:#596370;
+border: 2px solid grey;
+padding-left: 35px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-bottom: 15px;
+box-shadow: 5px 5px 7px;
+padding-right: 33px;
+border-radius: 5px;
+}
+
+.card2 {
+    background: #47d0c9;
+    color: #596370;
+    border: 2px solid grey;
+    margin-bottom: 15px;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 7px;
+    padding-right: 33px;
+    border-radius: 5px;
+}
+
+.card3 {
+    background-color:#89e1b1 ;
+    color: #596370;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 7px;
+    padding-right: 33px;
+}
+
+.box {
+    padding: 15px;
+    background:#FFE4E1 ;
+}
+
+.container {
+    max-width: 750px;
+     margin: auto;
+}
+
+.example_image {
+    width: 250px;
+border: 2px solid rgb(104, 106, 104);
+border-radius: 15px;
+box-shadow: 5px 3px 5px black;
+
+}
+.card1 h2 {
+    margin-bottom: 20px;
+}
+.card1 ol {
+    padding-left: 30px;
+}
+.card2 h2 {
+margin-bottom: 20px;
+}
+.top h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.top2 h4 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(105, 104, 104);
+}
+.list li {
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    margin-bottom: 10px;
+}
+.table td:nth-child(2),.table td:nth-child(3)  {
+    color: rgb(109, 107, 107);
+}
+a {
+    color: #696969;
+    text-decoration:none;
+    transition: all.2s;
+}
+a:hover {
+    color:#FF00FF ;
+    font-size: 1.2rem; 
+} 
+
+.top:hover {
+    background-color:#00CED1;
+}
+.top h1:hover {
+    color:#008000 ;
+}
+.top span:hover {
+    color:#B22222 ;
+}
+a:active {
+    color: #B22222;
+}
+/* a:visited {
+    color:#483D8B ;
+} */
+.btn {
+    background: #3f3fe8;
+    color: rgb(244, 244, 248);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+.btn:hover {
+    /* background:#df8c28 ; */
+    opacity: 0.8;
+    color:#FF00FF ;
+}
+
+.info {
+    max-width: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card3 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-style: 14px;
+}
+
+.form-group input,.form-group textarea {
+    width: 100%; 
+    /* box-sizing: border-box; */
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(116, 114, 114);
+    padding: 05px 0 10px;
+}
+
+.form-row {
+display: flex;
+/* margin-bottom: 10px; */
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+.top {
+    display: block;
+    text-align: center;
+}
+}
+@media (max-width:650px){
+    .form-row {
+        display: block;}
+        .form-group, .form-group {
+            width: 100%;
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+}
