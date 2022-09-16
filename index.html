@@ -4,101 +4,204 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywors" content="Vladimir, resume" />
-    <meta name="descripton" content="Это сайт - резюме Владимира Косякова" />
-    <title>Vladimir Resume</title>
-    <link rel="stylesheet" href="styles.css" />
-  
+    <title>flex</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="box">
-        <div class="top">
-          <img class="example_image" src="Foto.jpg" alt="Мое фото" />
-          <div class="info">
-            <h1>Владимир Косяков</h1>
-            <div>
-              <p>
-                Я <strong> <span>новичок в программировании</span> </strong> ,
-                <em> но я обязательно добьюсь своей цели!</em>
-              </p>
+    <div class="wrapper">
+      <div class="content">
+        <div class="hi">
+          <div class="container">
+            <div class="hi__row">
+              <div class="hi__body">
+                <div class="hi__title">Привет, Друг!</div>
+                <ul class="hi__list">
+                  <li>У тебя все получится!</li>
+                  <li>Никогда не здавайся!</li>
+                  <li>Сегодня ты уже знаешь больше чем вчера!</li>
+                  <li>Спасибо тебе за поддержку!</li>
+                </ul>
+              </div>
+              <div class="hi__image">
+                <img src="./img/image.jpg" alt="картинка" />
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="top2">
-          <h4>Список моих социальных сетей</h4>
-          <div>
-            <a href="https://vk.com/id44582738 " target="_blank">Вконтакте</a>
-            <span>|</span>
-            <a href="https://t.me/AkoTengu" target="_blank">Telegram</a>
-          </div>
-        </div>
-
-        <div class="card1">
-          <h2>Мои хобби</h2>
-          <ol class="list">
-            <li>Иностранные языки</li>
-            <li>Татуировки</li>
-            <li>Музыка</li>
-            <li>Видеоигры</li>
-          </ol>
-        </div>
-
-        <div class="card2">
-          <h2>Опыт работы</h2>
-
-          <table class="table">
-            <!-- <thead>
-              <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-              </tr>
-            </thead> -->
-
-            <tbody>
-              <tr>
-                <td>Leoni Rus</td>
-                <td>Оператор-тестера</td>
-                <td>2018-2021</td>
-              </tr>
-              <tr>
-                <td>Автофевраль</td>
-                <td>Сборщик автодомов</td>
-                <td>2021-2022</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="card3">
-          <h2>Связаться со мной</h2>
-          <div class="form-row">
-
-            <di class="form-group">
-              <label for="name">Ваше имя:</label>
-              <input type="name" id="name" placeholder="Введите имя" />
-            </di>
-            <div class="form-group">
-              <label for="email">Ваш email:</label>
-              <input type="email" id="email" placeholder="Введите email" />
+        <div class="what">
+          <div class="container">
+            <div class="what__row">
+              <div class="what__image">
+                <img src="./img/image_2.jpg" alt="картинка" />
+              </div>
+              <div class="what__body">
+                <div class="what__title title">Что такое FlexBox?</div>
+                <div class="what__text">
+                  <p>
+                    Flexbox - это целый модуль, содержащий в себе набор свойств
+                    и их значений как для родителя flex-контейнера так и для его
+                    дочерних элементов flex-элементов.
+                  </p>
+                  <p>
+                    Основным преимуществом гибкой FLEX разметки является
+                    возможность изменять ширину/высоту пространство вокруг и
+                    порядок flex-элементов, для того чтобы наилучшим образом
+                    заполнить доступное пространство flex-контейнера
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="form-group">
-            <label for="message">Ваше сообщение:</label>
-            <br />
-            <textarea
-              name="text"
-              id="message"
-              cols="20"
-              rows="5"
-              placeholder="Введите сообщение..."
-            ></textarea>
+        </div>
+        <div class="columns">
+          <div class="container">
+            <div class="columns__title title">Колонки с flex-контейнерами</div>
+            <div class="columns__row">
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="./img/image_3.jpg" alt="картинка" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        The description for the image
+                      </div>
+                      <div class="item__text">
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste
+                        cumque itaque, ipsa vel exercitationem ullam quos aut
+                        nostrum cupiditate fuga quaerat quam animi dolores.
+                        Sequi itaque, unde perferendis nemo debitis dolor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="./img/image_3.jpg" alt="картинка" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        The description for the image
+                      </div>
+                      <div class="item__text">
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste
+                        cumque itaque, ipsa vel exercitationem ullam quos aut
+                        nostrum cupiditate fuga quaerat quam animi dolores.
+                        Sequi itaque, unde perferendis nemo debitis dolor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="./img/image_3.jpg" alt="картинка" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        The description for the image
+                      </div>
+                      <div class="item__text">
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste
+                        cumque itaque, ipsa vel exercitationem ullam quos aut
+                        nostrum cupiditate fuga quaerat quam animi dolores.
+                        Sequi itaque, unde perferendis nemo debitis dolor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img src="./img/image_3.jpg" alt="картинка" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">
+                        The description for the image
+                      </div>
+                      <div class="item__text">
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste
+                        cumque itaque, ipsa vel exercitationem ullam quos aut
+                        nostrum cupiditate fuga quaerat quam animi dolores.
+                        Sequi itaque, unde perferendis nemo debitis dolor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <input class="btn" type="submit" value="Отправить" />
+        </div>
+        <div class="vertical">
+          <div class="container">
+            <div class="vertical__title title">Вертикальное выравнивание</div>
+            <div class="vertical__body">
+              <div class="vertical__row">
+                <div class="vertical_column vertical_column_1">
+                  <div class="vertical__item">
+                    <div class="vertocal__subtitle">БУДУ РАД</div>
+                    <div class="vertical__label">подписке</div>
+                    <div class="vertical__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sint tenetur fugit vel, eligendi illum, placeat quo vero
+                      reiciendis consectetur.
+                    </div>
+                    <a href="" class="vertical__btn">Подписаться</a>
+                  </div>
+                </div>
+                <div class="vertical_column vertical_column_2">
+                  <div class="vertical__item">
+                    <div class="vertocal__subtitle">БУДУ РАД</div>
+                    <div class="vertical__label">Лайку</div>
+                    <div class="vertical__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sint tenetur fugit vel, eligendi illum, placeat
+                        quo vero reiciendis consectetur.
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sint tenetur fugit vel, eligendi illum, placeat
+                        quo vero reiciendis consectetur.
+                      </p>
+                    </div>
+                    <a href="" class="vertical__btn">Лайк</a>
+                  </div>
+                </div>
+                <div class="vertical_column vertical_column_3">
+                  <div class="vertical__item">
+                    <div class="vertocal__subtitle">БУДУ РАД</div>
+                    <div class="vertical__label">Комментарию</div>
+                    <div class="vertical__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sint tenetur fugit vel, eligendi illum, placeat quo vero
+                      reiciendis consectetur.eligendi illum, placeat
+					  quo vero reiciendis consectetur.eligendi illum, placeat
+					  quo vero reiciendis consectetur.
+                    </div>
+                    <a href="" class="vertical__btn">Комментарий</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__text">Фрилансер по жизни 2019</div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
